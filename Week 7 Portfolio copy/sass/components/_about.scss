@@ -1,0 +1,46 @@
+.about h2{
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: Julius;
+  padding-right: 70px;
+  padding-top: 7px;
+}
+.about{
+	background-color: #fff;
+}
+
+.about p{
+	color:black;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-family:light;
+	padding-right: 300px;
+	padding-left:300px;
+	font-weight: 4000;
+	
+	
+	
+}
+.about img {
+	padding-right: 50px;
+}
+.about a:hover{
+ color:red;
+	
+}
+
+@font-face { font-family: Piron; src: url('Code Light.otf');}
+@font-face { font-family: c; src: url('Code Bold.otf');
+}
+@font-face { font-family: Julius; src: url('Julius.ttf');
+}
+@font-face { font-family: Roboto; src: url('Roboto-Light.ttf');
+}
+@font-face { font-family: light; src: url('lightopen.ttf');
+}
+@font-face { font-family: regular; src: url('regularopen.ttf');
+}
