@@ -7,30 +7,41 @@
   font-family: Julius;
   padding-right: 70px;
   padding-top: 7px;
+
 }
 .about{
-	background-color: #fff;
+  background-color: #fff;
+  border-bottom: 3px solid #e0e0e0;
+}
+.about a{
+  padding-right:70px;
+  text-align: center;
+  text-decoration: none;
+  color:#86c5da;
+  }
+.about a:hover{
+  color:#72bcd4;
 }
 
 .about p{
-	color:black;
-	text-align: center;
-	font-size: 15px;
-	letter-spacing: 1px;
-	font-family:light;
-	padding-right: 300px;
-	padding-left:300px;
-	font-weight: 4000;
-	
-	
-	
+  color:black;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family:light;
+  padding-right: 300px;
+  padding-left:300px;
+  font-weight: 4000;
+
+
+
 }
 .about img {
-	padding-right: 50px;
+  padding-right: 50px;
 }
 .about a:hover{
  color:red;
-	
+
 }
 
 @font-face { font-family: Piron; src: url('Code Light.otf');}

@@ -17,20 +17,22 @@ border-bottom: 5px solid #e0e0e0;
 	color:#F7F7F7;
 	font-size: 44px;
 	padding-right: 70px;
+	position:relative;
+	bottom:20px;
 }
-.col h2,h3{
-	text-align: center;
-	padding-bottom: 10px; }
 .col h2{
+  text-align: center;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing:2px;
-  margin: 0;
+   margin: 0;
   color:#fff;
   padding-right:70px;
+  position: relative;
+  bottom: 40px;
   }
-  
+
 .col .myButton {
 	-moz-box-shadow: 0px 10px 14px -7px #276873;
 	-webkit-box-shadow: 0px 10px 14px -7px #276873;
@@ -80,9 +82,11 @@ border-bottom: 5px solid #e0e0e0;
   font-family: Julius;
   padding-right: 70px;
   padding-top: 7px;
+
 }
 .about{
 	background-color: #fff;
+	border-bottom: 3px solid #e0e0e0;
 }
 .about a{
 	padding-right:70px;
@@ -103,16 +107,16 @@ border-bottom: 5px solid #e0e0e0;
 	padding-right: 300px;
 	padding-left:300px;
 	font-weight: 4000;
-	
-	
-	
+
+
+
 }
 .about img {
 	padding-right: 50px;
 }
 .about a:hover{
  color:red;
-	
+
 }
 
 @font-face { font-family: Piron; src: url('Code Light.otf');}
@@ -152,11 +156,55 @@ border-bottom: 5px solid #e0e0e0;
   height: 100px;
 }
 
-.resume {
-background-image: url('imgs/wood2.jpg');
-background-size: 100%,100%;
-background-repeat: no-repeat;
-border-bottom: 5px solid #e0e0e0;
-}
-		
 
+.work {
+	border-bottom: 3px solid #e0e0e0;
+	background-color:#262626;
+}
+
+.work img{
+	width:35%;
+	text-align:center;
+
+}
+.work h2{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: Julius;
+	padding-right: 70px;
+	padding-top: 7px;
+	color:#fff;
+}
+
+.work figure{
+	text-align:center;
+	padding-left:300px;
+}
+.work figure img{
+	cursor:pointer;
+	border: 5px solid white;
+	-webkit-box-shadow: 0 0 22px rgba(0,0,0,.7);
+  -webkit-transition: all 1.3s;
+}
+.work figure:hover img{
+	-webkit-transform:scale(2.0);
+}
+
+.connect p{
+	display: inline-block;
+	padding-right: 70px;
+	padding-top: 7px;
+}
+.share-buttons{
+	list-style: none;
+	text-align:center;
+	padding-right: 70px;
+
+}
+
+.share-buttons li{
+	display: inline;
+}
