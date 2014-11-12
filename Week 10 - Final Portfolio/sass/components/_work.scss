@@ -1,0 +1,46 @@
+.work {
+  border-bottom: 3px solid #e0e0e0;
+  background-color:#262626;
+}
+
+.work img{
+  width:35%;
+  text-align:center;
+
+}
+.work h2{
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: Julius;
+  padding-right: 70px;
+  padding-top: 7px;
+  color:#fff;
+}
+
+.work figure{
+  text-align:center;
+  padding-left:300px;
+}
+.work figure img{
+  cursor:pointer;
+  border: 5px solid white;
+  -webkit-box-shadow: 0 0 22px rgba(0,0,0,.7);
+  -webkit-transition: all 1.3s;
+}
+.work figure:hover img{
+  -webkit-transform:scale(2.0);
+}
+@font-face { font-family: Piron; src: url('Code Light.otf');}
+@font-face { font-family: c; src: url('Code Bold.otf');
+}
+@font-face { font-family: Julius; src: url('Julius.ttf');
+}
+@font-face { font-family: Roboto; src: url('Roboto-Light.ttf');
+}
+@font-face { font-family: light; src: url('lightopen.ttf');
+}
+@font-face { font-family: regular; src: url('regularopen.ttf');
+}

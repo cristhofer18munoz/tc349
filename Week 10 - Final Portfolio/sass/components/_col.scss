@@ -1,0 +1,86 @@
+.col {
+background-image: url('../imgs/dd.jpg');
+background-size: 100%,100%;
+background-repeat: no-repeat;
+border-bottom: 5px solid #e0e0e0;
+}
+.col img{
+	padding-top: 70px;
+	padding-right: 70px;
+}
+.wrap{
+	margin: 0 auto;
+}
+.col h1{
+	font-family:Julius;
+	text-align: center;
+	color:#F7F7F7;
+	font-size: 44px;
+	padding-right: 70px;
+	position:relative;
+	bottom:20px;
+}
+.col h2{
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing:2px;
+	margin: 0;
+	color:#fff;
+	padding-right:70px;
+	position: relative;
+	bottom: 40px;
+	}
+
+.col .myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:20px;
+	font-weight:bold;
+	margin-right:70px;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.col .myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.col .myButton:active {
+	position:relative;
+	top:1px;
+}
+@font-face { font-family: Piron; src: url('Code Light.otf');}
+@font-face { font-family: c; src: url('Code Bold.otf');
+}
+@font-face { font-family: Julius; src: url('Julius.ttf');
+}
+@font-face { font-family: Roboto; src: url('Roboto-Light.ttf');
+}
+@font-face { font-family: light; src: url('lightopen.ttf');
+}
+@font-face { font-family: regular; src: url('regularopen.ttf');
+}

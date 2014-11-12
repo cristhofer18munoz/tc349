@@ -1,0 +1,27 @@
+.connect p{
+  display: inline-block;
+  padding-right: 70px;
+  padding-top: 7px;
+}
+.share-buttons{
+  list-style: none;
+  text-align:center;
+  padding-right: 70px;
+
+}
+
+.share-buttons li{
+  display: inline;
+}
+
+@font-face { font-family: Piron; src: url('Code Light.otf');}
+@font-face { font-family: c; src: url('Code Bold.otf');
+}
+@font-face { font-family: Julius; src: url('Julius.ttf');
+}
+@font-face { font-family: Roboto; src: url('Roboto-Light.ttf');
+}
+@font-face { font-family: light; src: url('lightopen.ttf');
+}
+@font-face { font-family: regular; src: url('regularopen.ttf');
+}
