@@ -1,0 +1,67 @@
+.s4 {
+  background:#F7F7F7;
+  height:650px;
+}
+.s4 h1{
+  font-family:mregular;
+  color:#333333;
+  padding-top:30px;
+}
+#list2 {
+  list-style: none;
+  display: inline;
+  text-align: center;
+}
+
+#list2 li {
+  width: 280px;
+  float: left;
+  padding: 20px;
+  position: relative;
+}
+
+#list2 li p {
+  color:#777777;
+  font-size:18px;
+  font-family:helvetica;
+  }
+
+
+#list2 h3{
+  font-family:mregular;
+  color:#333333;
+}
+#list 2 h4{
+  color:#000;
+}
+
+.social-popout {
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+  float: left;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+.social-popout img {
+  border-radius: 50%;
+  margin: 8px;
+  width: 100%;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+.social-popout img:hover {
+  margin: 0px;
+  box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
+}
+.social-popout img{
+  margin-left:35px;
+  padding:-2px;
+}

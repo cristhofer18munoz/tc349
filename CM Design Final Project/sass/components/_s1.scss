@@ -1,0 +1,40 @@
+.s1 {
+  background-image: url("get.jpg");
+  background-size: 100%,100%;
+  background-repeat: no-repeat;
+  height:700px;
+  border-bottom: 7px solid #e0e0e0;
+
+}
+.s1 h1{
+  font-family:mbold;
+  font-size:70px;
+
+  padding: 20px 0px 190px 0px;
+  margin: 0 auto;
+  font-weight:400px;
+
+}
+.s1 h2{
+  padding-top:190px;
+  font-family:jose;
+  font-size:40px;
+  font-weight:40000px;
+
+}
+.s1 .btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #73a832;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.s1 .btn:hover {
+  background: #4a7811;
+  text-decoration: none;
+}
